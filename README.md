@@ -10,6 +10,10 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/)
 
+**Framework:**
+
+[![FastAPI](https://img.shields.io/badge/FastAPI-v0.112.2-blue?logo=FastAPI)]([https://www.djangoproject.com/](https://fastapi.tiangolo.com/))
+
 **Databases**
 
 [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-464646?logo=PostgreSQL)](https://www.postgresql.org/)
