@@ -12,7 +12,7 @@
 
 **Framework:**
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-v0.112.2-blue?logo=FastAPI)]([https://www.djangoproject.com/](https://fastapi.tiangolo.com/))
+[![FastAPI](https://img.shields.io/badge/FastAPI-v0.112.2-blue?logo=FastAPI)](https://fastapi.tiangolo.com/)
 
 **Databases**
 
