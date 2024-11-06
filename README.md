@@ -36,7 +36,7 @@
 
 ```bash
 git clone https://github.com/Ilya-kutylev/task_queuing.git
-cd app
+cd task_queuing_fastapi
 ```
 - Activation of the virtual environment and install dependencies:
 ```bash
@@ -53,5 +53,5 @@ To test API endpoints, the Swagger tool is used at http://localhost:2000/docs
 ## Deploy application
 ```bash
 docker compose up --build
-docker compose stop
+docker compose down
 ```

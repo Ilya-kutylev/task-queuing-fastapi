@@ -3,8 +3,8 @@ import asyncio
 import uvicorn
 from fastapi import FastAPI
 
-from api.endpoint_tasks import router
-from worker.task_worker import task_worker
+from app.tasks.handlers.handlers import router
+from app.tasks.servires.tasks import task_worker
 
 # create instance of the app
 app = FastAPI()

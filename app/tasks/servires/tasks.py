@@ -5,8 +5,8 @@ from datetime import datetime
 from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from database.models import Task
-from database.sessions import async_session
+from app.tasks.models.models import Task
+from app.database.sessions import async_session
 
 semaphore = asyncio.Semaphore(2)
 
