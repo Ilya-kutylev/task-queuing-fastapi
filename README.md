@@ -36,7 +36,7 @@
 
 ```bash
 git clone https://github.com/Ilya-kutylev/task_queuing.git
-cd task_queuing
+cd app
 ```
 - Activation of the virtual environment and install dependencies:
 ```bash

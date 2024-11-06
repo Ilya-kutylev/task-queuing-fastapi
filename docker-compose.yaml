@@ -13,14 +13,12 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
   app:
-    container_name: task_queuing
+    container_name: app
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "2000:2000"
-    environment:
-      - DATABASE_URL=postgresql+asyncpg://admin_queue:password@db:5432/task_queuing_new
     depends_on:
       - db
 
